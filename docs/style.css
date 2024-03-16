@@ -1,5 +1,5 @@
 body{
-    background-color:#080c0ce8;
+    background-color:#696969;
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -11,13 +11,13 @@ form{
     margin-left: 22rem;
   
     width:20rem;
-    background-color:#080c0ce8 ;
+    background-color: #696969;
     padding: 10rem;
 }
 
 .input{
     position:relative;
-    color:rgb(136, 0, 255);
+    color:rgb(102, 201, 208)5)2)1)1);
     font-size: 4vh;
 }
 .input input{
@@ -44,7 +44,7 @@ form .input,.button {
     font: 10px;
 }
 .button button{
-        background-color: #8800ff;
+        background-color: #b482e0;
         border: none;
         color:#f2f7fe;
         text-align: center;
