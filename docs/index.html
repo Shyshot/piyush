@@ -17,11 +17,14 @@
     </div>
     <div class="button">
     <button id="btn1" type="reset">Reset</button><br>
-    <button id="btn2" type="submit" onclick="click()">Submit</button>
+    <button id="btn2" type="submit">Submit</button>
     </div>
     </form>
 </body>
 <script>
+    
+    document.getElementById("btn2").addEventListener("click", click);
+
     function click(){
     var username = document.getElementById("uname").value;
     alert(`Welcome ${username}`);
