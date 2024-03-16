@@ -1,0 +1,57 @@
+body{
+    background-color:#080c0ce8;
+}
+form{
+    position: absolute;
+    padding: 0px;
+    margin: 1rem;
+    margin-left: 22rem;
+  
+    width:20rem;
+    background-color:#080c0ce8 ;
+    padding: 10rem;
+}
+
+.input{
+    position:relative;
+    color:rgb(136, 0, 255);
+    font-size: 4vh;
+}
+.input input{
+    width: 20rem;
+    color:#f2f7fe;
+    border-color:#161418;
+    background-color:transparent;
+    border:solid;
+    height: 2rem;
+    margin: 2rem;
+}
+input :focus{
+    text-decoration-style: none;
+    border-color: aqua;
+  
+}
+form .input,.button {
+    border: none;
+    padding: 10px;
+}
+.button{
+    border: none;
+    margin: 10px;
+    font: 10px;
+}
+.button button{
+        background-color: #8800ff;
+        border: none;
+        color:#f2f7fe;
+        text-align: center;
+        font-size: 16px;
+        cursor:pointer;
+        margin-left:6rem;
+        width:10rem;
+        height:2rem;
+}
+button :focus{
+    border-color:aqua;
+    text-decoration: none;
+}
