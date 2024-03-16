@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="frm1" action="javascript:void(0);">
+    <form id="form">
     <div class="input">
-    Enter username<br><input type="text" id="name" required><br>
-    Enter password<br><input type="password"><br>
+    <label for="uname">Enter username:</label><br>
+    <input type="text" id="uname" name="uname" required><br>
+    <label for="passwd">Enter password:</label><br>
+    <input type="password" id="passwd" name="passwd" id="passwd"><br>
     </div>
     <div class="button">
-    <button id="button1" type="reset">Reset</button><br><br>
-    <button onclick ="javascrtpt:click(document.getElementById('name').value)" id="button2">Submit</button>
+    <button id="btn1" type="reset">Reset</button>
+    <button id="btn2">Submit</button>
     </div>
     </form>
 </body>
 <script>
-
     function click(name){
         alert(`Welcome ${name}`);
     }
