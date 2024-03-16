@@ -10,21 +10,19 @@
 <body>
     <form name="frm1">
     <div class="input">
-    Enter username<br><input type="text" id="name"><br>
+    Enter username<br><input type="text" id="name" name="name" required><br>
     Enter password<br><input type="password"><br>
     </div>
     <div class="button">
-    <button id="button1">Reset</button><br><br>
-    <button onclick ="click()" id="button2">Submit</button>
+    <button id="button1" type="reset">Reset</button><br><br>
+    <button onclick ="click(document.getElementBYId('name').value)" id="button2">Submit</button>
     </div>
     </form>
 </body>
 <script>
 
-    function click(){
-        let  a=frm1.name.value;
-        console.log(0)
-        alert(`Welcome ${a}`);
+    function click(name){
+        alert(`Welcome ${name}`);
     }
 
 </script>
