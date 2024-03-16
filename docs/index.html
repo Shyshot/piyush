@@ -13,18 +13,19 @@
     <label for="uname">Enter username:</label><br>
     <input type="text" id="uname" name="uname" required><br>
     <label for="passwd">Enter password:</label><br>
-    <input type="password" id="passwd" name="passwd" id="passwd"><br>
+    <input type="password" id="passwd" name="passwd"><br>
     </div>
     <div class="button">
     <button id="btn1" type="reset">Reset</button>
-    <button id="btn2">Submit</button>
+    <button id="btn2" type="submit" onclick="click()">Submit</button>
     </div>
     </form>
 </body>
 <script>
-    function click(name){
-        var name = null;
-        alert(`Welcome ${name}`);
+    function click(){
+    var username = document.getElementById("uname").value;
+    alert(`Welcome ${username}`);
+}
     }
 </script>
 </html>
