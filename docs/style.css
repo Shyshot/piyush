@@ -1,24 +1,19 @@
 body{
-    background-color:#080c0ce8;
+    background-color:#696969;
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 form{
-    position: absolute;
-    padding: 0px;
-    margin: 1rem;
-    margin-left: 22rem;
-  
-    width:20rem;
-    background-color:#080c0ce8 ;
-    padding: 10rem;
+      position: absolute;
+      padding: 5px;
+      margin: 10px;
+      width: 20px;
+      background-color: #7680cd;
 }
 
 .input{
     position:relative;
-    color:rgb(136, 0, 255);
-    font-size: 4vh;
 }
 .input input{
     width: 20rem;
@@ -44,15 +39,14 @@ form .input,.button {
     font: 10px;
 }
 .button button{
-        background-color: #8800ff;
+        background-color: #504db5;
         border: none;
         color:#f2f7fe;
         text-align: center;
-        font-size: 16px;
+        font-size: 20px;
         cursor:pointer;
-        margin-left:6rem;
-        width:10rem;
-        height:2rem;
+        width:10px;
+        height:5px;
 }
 button :focus{
     border-color:aqua;
