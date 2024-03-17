@@ -1,16 +1,25 @@
 body{
-    background-color: #5e84ed;
+    background:linear-gradient(120deg,#ff00d4,#00ddff);
     font-family: "Baloo Bhai 2", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+
 }
 form{
     position: absolute;
     padding: 10px;
     margin: 10px;
-    background-color: #5e84ed;
+    left: 400px;
+    top: 150px;
+    height:max-content;
+    border: 0.5px solid #111111;
+    border-radius: 14px;
+    z-index: 2;
+    box-shadow: 0px 5px 20px #111111bb;
+    backdrop-filter: blur(40px);
 }
+
 .input{
     position:relative;
     font-size: 4vh;
