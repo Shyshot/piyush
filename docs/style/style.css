@@ -63,8 +63,9 @@ button :focus{
 }
 /*Navigation Bar*/
 .topnav {
-  background-color: #333;
+  background-color: #9f95ef;
   overflow: hidden;
+  border-radius: 10000000000000%;
 }
 
 .topnav a {
@@ -74,14 +75,19 @@ button :focus{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border-radius: 1000000%;
 }
 
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+  border-radius: 1000000%;
 }
 
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+  border-radius: 1000000%;
 }
+
+
