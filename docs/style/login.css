@@ -1,3 +1,4 @@
+
 body{
     background:linear-gradient(120deg,#ff69e6,#00ddff);
     font-family: "Baloo Bhai 2", sans-serif;
@@ -66,7 +67,7 @@ button :focus{
 .topnav {
     background-color: #9f95ef;
     overflow: hidden;
-    border-radius: 10000000000000%;
+    border-radius: 10%;
   }
   
   .topnav a {

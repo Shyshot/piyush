@@ -65,7 +65,7 @@ button :focus{
 .topnav {
   background-color: #9f95ef;
   overflow: hidden;
-  border-radius: 10000000000000%;
+  border-radius: 10%;
 }
 
 .topnav a {
